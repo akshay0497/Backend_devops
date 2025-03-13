@@ -1,0 +1,27 @@
+{
+  "name": "backend_devops",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/akdwivedi7355/Backend_devops#readme",
+  "bugs": {
+    "url": "https://github.com/akdwivedi7355/Backend_devops/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akdwivedi7355/Backend_devops.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.12.1",
+    "nodemon": "^3.1.9"
+  }
+}
